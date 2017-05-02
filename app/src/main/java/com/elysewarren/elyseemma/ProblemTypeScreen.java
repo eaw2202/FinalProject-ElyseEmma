@@ -21,7 +21,7 @@ public class ProblemTypeScreen extends AppCompatActivity {
     }
 
     public void openPGScreen(View view) {
-        Intent i = new Intent(this, PreGameSummary.class);
+        Intent i = new Intent(this, QuestionScreen.class);
         startActivity(i);
     }
 }
