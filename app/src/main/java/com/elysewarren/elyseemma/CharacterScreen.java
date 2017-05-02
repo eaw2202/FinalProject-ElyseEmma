@@ -58,7 +58,7 @@ public class CharacterScreen extends AppCompatActivity {
 
 
     public void openLevelScreen(View view) {
-        Intent i = new Intent(this, LevelScreen.class);
+        Intent i = new Intent(this, ProblemTypeScreen.class);
         startActivity(i);
     }
 }
