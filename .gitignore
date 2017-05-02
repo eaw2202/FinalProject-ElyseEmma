@@ -9,3 +9,4 @@
 app/libs/
 app/src/main/res/drawable/
 !/app/src/main/res/drawable/
+google-services.json
