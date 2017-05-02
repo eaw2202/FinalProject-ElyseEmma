@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".SignUp" />
         <activity android:name=".CharacterScreen" />
-        <activity android:name=".ProblemTypeScreen"></activity>
+        <activity android:name=".ProblemTypeScreen" />
+        <activity android:name=".QuestionScreen"></activity>
     </application>
 
 </manifest>

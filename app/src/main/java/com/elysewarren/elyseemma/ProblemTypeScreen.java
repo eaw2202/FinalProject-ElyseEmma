@@ -15,6 +15,7 @@ public class ProblemTypeScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_problem_type_screen);
+
         wordProblems = (Button) findViewById(R.id.wordproblems_button);
         arithmetic = (Button) findViewById(R.id.arithmetic_button);
     }
