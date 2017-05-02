@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.elysewarren.elyseemma.CharacterScreen">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Character..."
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="180dip"
+            android:layout_height="180dip"
+            android:background="@drawable/fish"
+            android:layout_weight="1"
+            android:id="@+id/fish_pic"
+            android:onClick="openLevelScreen"
+            android:padding="16dp" />
+
+        <ImageButton
+            android:layout_width="180dip"
+            android:layout_height="180dip"
+            android:background="@drawable/dolphin"
+            android:layout_weight="1"
+            android:id="@+id/dolphin_pic"
+            android:onClick="openLevelScreen"
+            android:padding="16dp" />
+
+    </LinearLayout>
