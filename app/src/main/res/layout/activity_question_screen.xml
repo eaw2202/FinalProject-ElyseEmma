@@ -7,4 +7,9 @@
     android:background="@drawable/underthesea"
     tools:context="com.elysewarren.elyseemma.QuestionScreen">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Questions go here..."
+        android:textColor="@android:color/black" />
 </LinearLayout>
