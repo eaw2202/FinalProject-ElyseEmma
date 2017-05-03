@@ -11,18 +11,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Questions go here..."
-        android:textColor="@android:color/black" />
+        android:textSize="32sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/display_text" />
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:height="64dp"
-            android:width="64dp"
             android:background="@android:color/holo_green_light"
+            android:layout_alignParentLeft="true"
+            android:width="32dp"
             android:layout_alignParentBottom="true"
             android:id="@+id/trueOption"
             android:padding="32dp" />
@@ -30,9 +33,9 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:height="64dp"
-            android:width="64dp"
             android:background="@android:color/holo_red_light"
+            android:width="32dp"
+            android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_toRightOf="@id/trueOption"
             android:padding="32dp" />
