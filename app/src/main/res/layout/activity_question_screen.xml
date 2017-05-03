@@ -7,9 +7,37 @@
     android:background="@drawable/underthesea"
     tools:context="com.elysewarren.elyseemma.QuestionScreen">
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Questions go here..."
         android:textColor="@android:color/black" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="64dp"
+            android:width="64dp"
+            android:background="@android:color/holo_green_light"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/trueOption"
+            android:padding="32dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="64dp"
+            android:width="64dp"
+            android:background="@android:color/holo_red_light"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/trueOption"
+            android:padding="32dp" />
+
+    </RelativeLayout>
+
+
 </LinearLayout>
